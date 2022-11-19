@@ -1,0 +1,36 @@
+
+.convert-header .jsonviewer-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.convert-header .viewer-control-panel {
+    width: 20%;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: var(--elevation-2px);
+    padding: var(--spacing-sm) var(--spacing-xs);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.convert-header .viewer {
+    width: 80%;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: var(--elevation-2px);
+    padding: var(--spacing-md);
+    overflow: scroll;
+}
+
+.convert-header .viewer::-webkit-scrollbar {
+    display: none;
+  }

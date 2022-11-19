@@ -1,0 +1,24 @@
+.convert-header .dropzone-box {
+    width: 100%;
+}
+.convert-header .dropzone {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    height: 80px;
+    width: 100%;
+    border: 2px dashed gray;
+    border-radius: 2%;
+    outline: none;
+  }
+  
+  .convert-header .dropzoneReject {
+    border: 2px dashed rgb(161, 57, 57);
+  }
+  
+  .convert-header .dropzoneAccept {
+    border: 2px dashed #255957;
+  }

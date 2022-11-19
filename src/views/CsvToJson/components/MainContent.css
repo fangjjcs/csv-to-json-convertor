@@ -1,0 +1,17 @@
+
+.convert-header .content-box {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.convert-header .image {
+    position: absolute;
+    width: 300px;
+    right: 10px;
+    bottom: 10px;
+    z-index: -100;
+}

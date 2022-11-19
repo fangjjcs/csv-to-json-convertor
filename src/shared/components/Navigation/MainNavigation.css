@@ -1,0 +1,46 @@
+.main-navigation__menu-btn {
+    width: 3rem;
+    height: 1.5rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  .main-navigation__menu-btn span {
+    display: block;
+    width: 1.3rem;
+    height: 2px;
+    background: #666;
+  }
+  
+  .main-navigation__title {
+    font: var(--font-nav);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .main-navigation__title a {
+    text-decoration: none;
+    color: var(--color-green);
+  }
+  
+  .main-navigation__header-nav-auth{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .main-navigation__drawer-nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+ 
