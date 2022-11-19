@@ -1,11 +1,13 @@
 
 # CSV to JSON Convertor / Viewer
 
-<br>
+A csv to json convertor using "react-dropzone", "react-json-view", "react-papaparse"
 
+<br>
 
 ## Screenshots
 
+<img width="1510" alt="截圖 2022-11-19 下午9 46 11" src="https://user-images.githubusercontent.com/33279791/202853894-d6c286a3-b47d-4520-9732-c0a9a7767909.png">
 
 
 ## Installed Packages
