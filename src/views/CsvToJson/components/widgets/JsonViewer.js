@@ -15,7 +15,7 @@ const JsonViewer = () => {
     const windowSize = useWindowSize(0,150);
     const jsonData = useSelector( state => state.convert.jsonData);
 
-    const  [displayDataTypes, setDisplayDataTypes] = useState(true);
+    const  [displayDataTypes, setDisplayDataTypes] = useState(false);
     const  [collapsed, setCollapsed] = useState(false);
     const  [camelCaseCols, setCamelCaseCols] = useState(false);
 

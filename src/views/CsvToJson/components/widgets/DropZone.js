@@ -12,7 +12,6 @@ function DropZone() {
 
   const onDrop = useCallback(acceptedFiles => {
     if (acceptedFiles.length) {
-      
       parseFile(acceptedFiles[0]);
     }
   }, []);
@@ -21,7 +20,6 @@ function DropZone() {
     Papa.parse(file, {
       header: true,
       complete: results => {
-        console.log(results.data)
         dispatch(setJsonData(results.data))
       },
     });
